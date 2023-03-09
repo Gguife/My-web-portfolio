@@ -1,3 +1,6 @@
+.projects{
+  height: 90vh;
+}
 .project-last{
   display: flex;
   align-items: center;
@@ -15,7 +18,8 @@ video{
   transition: .5s;
 }
 video:hover{
-  width: 50.5%;
+  opacity: .5;
+  width: 48%;
 }
 
 .projects-total{
@@ -25,17 +29,25 @@ video:hover{
 .projects-total a{
   color: #FFF;
 }
+.projects-total p{
+  color: #999;
+
+}
 
 @media screen and (max-width: 992px) {
   video{
-    width: 70%;
+    width: 80%;
   }
   video:hover{
-    width: 72%;
+    width: 80%;
+    opacity: 1;
   }
 }
 @media screen and (max-width: 576px) {
   video{
-    width: 80%;
+    width: 90%;
+  }
+  .projects{
+    height: 70vh;
   }
 }

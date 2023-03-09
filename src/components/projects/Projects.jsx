@@ -13,7 +13,7 @@ export const Projects = () => {
       </div>
       <div className="projects-total">
         <a href="https://github.com/Gguife"> <FaGithub /><br/>
-        clique aqui para ver mais</a>
+        <p>clique aqui para ver mais</p></a>
       </div>
 
     </section>

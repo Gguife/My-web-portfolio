@@ -1,9 +1,11 @@
-
-
+.about{
+  height: 100vh;
+}
 .about-container{
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 4rem;
+  margin-top: 15rem;
 }
 
 .about-img{
@@ -37,6 +39,7 @@
 .about-title{
   font-size: var(--small-font-size);
   font-weight: 700;
+  color: #999;
 }
 
 .about-subtitle{
@@ -55,6 +58,7 @@
   .about-container{
     grid-template-columns: 1fr;
     row-gap: 2.5rem;
+    margin-top: 5rem;
   }
   .about-img{
     width: 220px;
@@ -66,7 +70,6 @@
     padding: 0 5rem;
     margin-bottom: 2rem;
   }
-
 }
 
 /* For medium devices */
@@ -85,3 +88,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media  screen and (min-width: 360px) {
+  .about{
+    height: 120vh;
+  }
+}
+

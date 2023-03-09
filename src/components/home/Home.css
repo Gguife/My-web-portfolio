@@ -1,3 +1,8 @@
+.home{
+  display: grid;
+  height: 100vh;
+}
+
 .home-container{
   row-gap: 7rem;
 }

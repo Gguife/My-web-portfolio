@@ -2,6 +2,7 @@
   grid-template-columns: repeat(2, 350px);
   column-gap: 3rem;
   justify-content: center;
+  margin-top: 10rem;
 }
 
 .skills-content{
@@ -80,7 +81,10 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
+  .skills-container{
+    margin-top: 5rem;
+  }
   .skills-box{
     column-gap: 1.25rem;
   }
@@ -88,4 +92,10 @@
   .skills-name{
     font-size: var(--small-font-size);
   }
+}
+
+
+
+.skills{
+  height: 90vh;
 }
