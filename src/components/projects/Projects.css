@@ -1,0 +1,41 @@
+.project-last{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+a{
+  text-align: center;
+}
+video{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transition: .5s;
+}
+video:hover{
+  width: 50.5%;
+}
+
+.projects-total{
+  text-align: center;
+  margin-top: 3rem;
+}
+.projects-total a{
+  color: #FFF;
+}
+
+@media screen and (max-width: 992px) {
+  video{
+    width: 70%;
+  }
+  video:hover{
+    width: 72%;
+  }
+}
+@media screen and (max-width: 576px) {
+  video{
+    width: 80%;
+  }
+}
