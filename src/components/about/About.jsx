@@ -1,6 +1,6 @@
 import './About.css'
 import AboutImg from '../../images/eucartoon.png'
-import CV from '../../assets/John-Cv.pdf'
+import CV from '../../assets/cv.pdf'
 import { Info } from './Info'
 
 export const About = () => {
@@ -18,7 +18,7 @@ export const About = () => {
           <p className="about-description">
             Front-end Developer, crio minhas paginas web utilizando React, sites totalmente resposivos para facilitar uso em qualquer dispositivo. 
           </p>
-          <a download="" href={CV} className='button button--flex'>
+          <a download="cv.pdf" href={CV} className='button button--flex'>
             Download CV
             <svg
                 class="button__icon"
