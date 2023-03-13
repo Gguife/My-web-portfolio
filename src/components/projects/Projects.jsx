@@ -13,8 +13,7 @@ export const Projects = () => {
         <a href="https://gguife-net-clone-jbgd.vercel.app/">Netflix Clone</a>
       </div>
       <div className="projects-total">
-        <a href="https://github.com/Gguife"> <FaGithub /><br/>
-        <p>clique aqui para ver mais</p></a>
+        <a href="https://github.com/Gguife"> <FaGithub /><br/></a>
       </div>
 
     </section>
