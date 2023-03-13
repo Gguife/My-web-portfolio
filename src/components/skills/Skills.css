@@ -2,7 +2,8 @@
   grid-template-columns: repeat(1, 350px);
   column-gap: 3rem;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 2REM;
 }
 
 .skills-content{
@@ -96,6 +97,3 @@
 
 
 
-.skills{
-  height: 90vh;
-}

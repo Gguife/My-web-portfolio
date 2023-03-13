@@ -9,7 +9,8 @@ export const Projects = () => {
       <span className="section__subtitle">Ultimo projeto</span>
 
       <div className="project-last">
-        <a href="https://gguife-net-clone-jbgd.vercel.app/"><video controls autoPlay loop src={projectVideo}/></a>
+        <video controls autoPlay loop src={projectVideo}/>
+        <a href="https://gguife-net-clone-jbgd.vercel.app/">Netflix Clone</a>
       </div>
       <div className="projects-total">
         <a href="https://github.com/Gguife"> <FaGithub /><br/>
